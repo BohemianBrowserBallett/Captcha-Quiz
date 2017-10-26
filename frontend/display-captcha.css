@@ -1,0 +1,151 @@
+.quizcaptcha-background {
+  display: none;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 10%;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10000000000000000;
+
+  background-color: rgba(0,0,0,0.9);
+}
+
+.quizcaptcha-card {
+  display: block;
+  width: 90%;
+  max-width: 600px;
+
+  background-color: white;
+}
+
+.quizcaptcha-explanation {
+  padding: 40px;
+  padding-bottom: 60px;
+
+  background-color: #1076F3;
+  color: white;
+
+  margin: 0;
+  margin-bottom: -35px;
+}
+
+@media screen and (max-width: 440px) {
+  .quizcaptcha-explanation {
+    padding: 24px;
+  }
+}
+
+.quizcaptcha-question {
+  padding: 24px;
+  background-color: #fff;
+
+  margin: 15px;
+}
+
+@media screen and (max-width: 440px) {
+  .quizcaptcha-question {
+    margin: 0;
+  }
+}
+
+.quizcaptcha-question__label {
+  font-size: 14px;
+  color: rgba(0,0,0,0.6);
+
+  margin-bottom: 0px;
+}
+
+.quizcaptcha-question__text {
+  font-size: 20px;
+
+  margin-bottom: 30px;
+}
+
+.quizcaptcha-answer {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  padding-top: 13px;
+  min-height: 54px;
+
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 6px 24px 0 rgba(0,0,0,0.15);
+  transition: all 0.4s;
+
+  overflow: hidden;
+
+  margin-bottom: 10px;
+}
+
+.quizcaptcha-answer:hover {
+    box-shadow: 0 6px 54px 0 rgba(0,0,0,0.27);
+    cursor: pointer;
+}
+
+.quizcaptcha-answer__numeration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 28px;
+  width: 28px;
+  flex-grow: 0;
+  flex-shrink: 0;
+
+  border-radius: 100%;
+  background-color: #383838;
+
+  font-size: 12px;
+  color: #fff;
+
+  margin: 0;
+  margin-right: 10px;
+}
+
+.quizcaptcha-answer__text {
+  padding-top: 1px;
+
+  margin: 0;
+}
+
+.quizcaptcha-failure {
+  display: none;
+  padding: 39px;
+  background-color: #fff;
+
+  border-top: 10px solid #EA4236;
+}
+
+@media screen and (max-width: 440px) {
+  .quizcaptcha-failure {
+    padding: 24px;
+  }
+}
+
+.quizcaptcha-failure__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 54px;
+  width: 100%;
+
+  border-radius: 4px;
+  background-color: #EA4236;
+  color: white;
+
+  cursor: pointer;
+  transition: opacity 0.2s;
+
+  margin: 0;
+  margin-top: 35px;
+}
+
+.quizcaptcha-failure__button:hover {
+  opacity: 0.9;
+}

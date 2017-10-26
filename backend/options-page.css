@@ -1,0 +1,56 @@
+<style>
+  .quizcaptcha_answer {
+    display: block;
+    margin-bottom: 7px;
+  }
+  .quizcaptcha_container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  .quizcaptcha_row {
+    flex-grow: 0;
+    margin-right: 20px;
+  }
+  .quizcaptcha_row--grow {
+    flex-grow: 1;
+  }
+  .quizcaptcha_row--full {
+    flex-grow: 100;
+    width: 100%;
+    flex-shrink: 0;
+    justify-content: flex-end;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-right: 10px;
+    box-sizing: border-box;
+  }
+  .quizcaptcha_delete {
+    margin-left: 5px;
+    font-weight: 400;
+  }
+  .quizcaptcha_dropdown {
+    display: block;
+    width: 100%;
+  }
+  .quizcaptcha_question {
+    width: 100%;
+  }
+  .quizcaptcha_add {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+  }
+  .quizcaptcha_label {
+    font-weight:500;
+    width: 100%;
+    flex-grow: 100;
+  }
+
+  .quizcaptcha_container:first-child .quizcaptcha_delete {
+    display: none;
+  }
+</style>
