@@ -1,6 +1,8 @@
-# Quiz-Captcha Plugin for Wordpress
+# Captcha-Quiz Plugin for Wordpress
 
-Lorem Ipsum
+Immer mehr Medien-Player schaffen ihre Kommentar-Funktion komplett ab, was auch die netten Leser bestraft. Deshalb haben wir ein Captcha Quiz entwickelt,das unerwünschte Idioten spielerisch und intelligent aus Euren Kommentare fernhält. Jetzt für Wordpress:
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 
 ## Manual Installation
 
