@@ -1,20 +1,19 @@
-# Captcha-Quiz Plugin for Wordpress
+# Captcha-Quiz Plugin für WordPress
 
 Immer mehr Medien-Player schaffen ihre Kommentar-Funktion komplett ab, was auch die netten Leser bestraft. Deshalb haben wir ein Captcha Quiz entwickelt,das unerwünschte Idioten spielerisch und intelligent aus Euren Kommentare fernhält. Jetzt für Wordpress:
 
 [![Go to Youtube Video](https://img.youtube.com/vi/AA9k9j6hifg/0.jpg)](https://www.youtube.com/watch?v=AA9k9j6hifg)
 
-## Manual Installation
+## Manuelle Installation
+Auf "Clone or download" klicken, dann auf "Download zip".
+Im WordPress Dashboard, links im Menü auf "Plugins" klicken.
+Auf den kleinen Button "Hinzufügen" neben der Überschrift klicken.
+Auf den kleinen Button "Hochladen" neben der Überschrift klicken.
+Zip-Datei hochladen. Aktivieren. Fertig.
 
-Click "Download Zip" and save to your Computer.
-Log into your Wordpress Admin Dashboard and click on "Plugins" in the menu on the left.
-Click on small "Add New" button next to the Headline "Plugins".
-Click on small "Upload Plugin" button next to new Headline "Add Plugins".
-Choose the zip file on your computer.
-Click "Install Now".
-Activate the Plugin.
 
-## Direct Installation
+## Direkte Installation
 
-Download zip. Unzip. Connect to server.
-Copy the quiz-captcha folder to wp-content/plugins.
+Zip runterladen. Entpacken.
+Aauf Server nach wp-content/plugins kopieren.
+Aktivieren. Fertig.
