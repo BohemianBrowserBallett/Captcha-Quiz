@@ -60,7 +60,7 @@ function display_options_page(){
 									<div class="inside">
 										<p style="font-weight:500;">Explanation Text</p>
 										<textarea name="quizcaptcha_explanation_text" rows="10" cols="50" id="quizcaptcha_explanation" class="large-text code"><?php if(!$no_saved_data) { echo stripslashes($form_data['quizcaptcha_explanation_text']); } ?></textarea>
-										<p style="font-weight:500;">Explanation Text</p>
+										<p style="font-weight:500;">Failure Text</p>
 										<textarea name="quizcaptcha_fail_text" rows="10" id="quizcaptcha_explanation" class="large-text code"><?php if(!$no_saved_data) { echo stripslashes($form_data['quizcaptcha_fail_text']); } ?></textarea>
 									</div>
 								</div>
@@ -147,14 +147,3 @@ function display_options_page(){
 	<?php
 	print_r($jsFile);
 }
-
-
-
-
-
-
-
-
-
-
- ?>
